@@ -1,0 +1,20 @@
+
+.header-contaier {
+    text-align: center;
+    background: #e72ee757;
+    padding: 20px 0;
+}
+
+.main-heading {
+    color: rgb(0, 162, 255);
+    font-size: 40px;
+}
+
+.resonable-salary {
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+}
+
+.resonable-salary-main {
+    font-size: 20px;
+}

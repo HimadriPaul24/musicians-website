@@ -1,0 +1,10 @@
+.data-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.single-data-container {
+    border-right: 1px solid rgba(211, 211, 211, 0.11);
+    margin-right: 10px;
+    margin-left: 60px;
+}

@@ -1,0 +1,36 @@
+.img-size {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+.item-containing {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.single-item-modify {
+    height: 450px;
+    background: #BE5A44;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.add-to-cart-btn {
+    border: none;
+    background: #1570ad;
+    padding: 8px 16px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.add-to-cart-btn:hover {
+    background: #045083c2;
+}
