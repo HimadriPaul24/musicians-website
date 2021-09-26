@@ -23,7 +23,7 @@ const Data = () => {
             <div className="single-data-container">
                 <div className='item-containing'>
                     {
-                        items.map(item => <Item handleAddtocart={handleAddtocart} item={item} />)
+                        items.map(item => <Item key="id" handleAddtocart={handleAddtocart} item={item} />)
                     }
                 </div>
 
