@@ -8,7 +8,7 @@ const Cart = (props) => {
         total = total + item.salary;
     }
     return (
-        <div>
+        <div className="cart-bg">
             <h3>Cart Quantity : {props.cart.length}</h3>
             <h4>Selected Item</h4>
             <ul>
